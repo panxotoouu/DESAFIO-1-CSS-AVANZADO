@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 1px solid #ddd;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    gap: 10px;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h3 {
+    font-size: 1.2rem;
+}
+
+.profile-info p {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.menu-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.new-chat-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #A491d2;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.contacts-list {
+    list-style: none;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding-bottom: 10px ;
+    border-bottom: 1px solid #ddd;
+    height: 14%;
+}
+
+.contact-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contact-info h4 {
+    font-size: 1rem;
+}
+
+.contact-info p {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.networking-box {
+    text-align: center;
+}
+
+.networking-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: gray;
+}
+
+strong {
+    color: #333;
+}
